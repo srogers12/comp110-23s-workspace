@@ -1,0 +1,12 @@
+"""If it's raining, tell me to pack umbrella"""
+
+weather: str = input("what is the weather like? ")
+
+if (weather == "rain"):
+    print("pack an umbrella")
+    print("don't forget to splash in the puddles!")
+else:
+    if (weather == "snow"):
+        print("pack a jacket")
+        print("build a snowman")
+print("Have a nice day!")
