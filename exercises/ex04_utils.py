@@ -32,4 +32,3 @@ def is_equal(c: list[int], d: list[int]) -> bool:
         return True
     else:
         return False
-
